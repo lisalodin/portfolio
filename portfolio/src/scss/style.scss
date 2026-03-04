@@ -1,0 +1,46 @@
+@use 'animations';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+@mixin pink-button($primary-pink: rgb(6, 8, 121), $primary-white: #fff, $font-family: 'arial') {
+  background-color: $primary-pink;
+  color: $primary-white;
+  border-color: $primary-pink;
+  font-family: $font-family;
+}
+
+.navbar .btn-primary,
+.hero-section .btn-primary,
+.container .btn-primary {
+    @include pink-button;
+}
+
+.navbar {
+    .nav-link,
+    .navbar-brand {
+        color: rgb(0, 0, 0);
+    }
+    .navbar-brand {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 2.5rem;
+    }
+    .nav-link {
+        font-size: 1rem;
+    }
+}
+
+.hero-section {
+    background-color: #000000; 
+    color: white;   
+    min-height: 60vh;                  
+}
+
+.hero-section img {
+  max-height: 50vh; // Eller t.ex. 400px om du vill ha en fast höjd
+  object-fit: contain; // För att bilden ska skalas korrekt utan att bli skev
+}
+
