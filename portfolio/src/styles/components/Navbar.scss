@@ -1,0 +1,56 @@
+@use "../variables" as *;
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  background: rgba($bg, 0.85);
+  border-bottom: 1px solid $border;
+
+  &-inner {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &-logo {
+    font-family: $font-display;
+    font-size: 1.35rem;
+    color: $text;
+    text-decoration: none;
+    letter-spacing: -0.02em;
+  }
+
+  &-links {
+    display: flex;
+    gap: 2rem;
+
+    a {
+      text-decoration: none;
+      color: $text-muted;
+      font-size: 0.875rem;
+      font-weight: 400;
+      letter-spacing: 0.02em;
+      transition: color 0.25s;
+
+      &:hover {
+        color: $text;
+      }
+    }
+
+    @include mobile {
+      gap: 0.8rem;
+
+      a {
+        font-size: 0.8rem;
+      }
+    }
+  }
+}

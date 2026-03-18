@@ -1,1 +1,1 @@
-import './scss/style.scss'
+import './styles/_global.scss'

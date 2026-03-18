@@ -1,0 +1,52 @@
+// Färgerna
+$bg: #fafaf8;
+$text: #1a1a1a;
+$text-muted: #6b6b6b;
+$accent: #2d2d2d;
+$border: #e8e6e1;
+$card-bg: #ffffff;
+$tag-bg: #f0eeea;
+$radius: 12px;
+
+// Typsnitten
+$font-body: "DM Sans", sans-serif;
+$font-display: "Instrument Serif", serif;
+
+// Breakpoints
+$bp-tablet: 768px;
+$bp-mobile: 480px;
+
+// Mixins
+@mixin tablet {
+  @media (max-width: $bp-tablet) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: $bp-mobile) {
+    @content;
+  }
+}
+
+@mixin section-padding {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 7rem 2rem;
+
+  @include tablet {
+    padding: 5rem 1.5rem;
+  }
+}
+
+@mixin pill-button {
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  border-radius: 100px;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
