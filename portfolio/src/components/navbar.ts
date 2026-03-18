@@ -1,3 +1,4 @@
+// Exporterar en funktion som returnerar HTML-koden för navigationsbaren
 export function navbar(): string {
   return `
     <nav class="navbar">

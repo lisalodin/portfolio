@@ -1,5 +1,7 @@
 import { skillsData } from "../data/skills";
 
+// Genererar HTML för "Skills" sektionen baserat på data från skillsData.
+// Varje kategori och dess tillhörande tekniker renderas i en strukturerad layout.
 export function skills(): string {
   const groups = skillsData
     .map(

@@ -1,3 +1,4 @@
+// Funktion som returnerar HTML-koden för hero-sektionen
 export function hero(): string {
   return `
     <section class="hero">

@@ -19,6 +19,8 @@ import { footer } from "./components/footer";
 
 const app = document.getElementById("app")!;
 
+// Komponenterna HTML-innehåll läggs till i app-diven som gör att när sidan laddas, kommer alla
+// sektioner (navbar, hero, about, projects, skills, contact och footer) att visas i den ordning de är listade.
 app.innerHTML = `
   ${navbar()}
   ${hero()}

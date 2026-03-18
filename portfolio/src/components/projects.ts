@@ -1,6 +1,7 @@
 import { projectsData } from "../data/projects";
 import { projectCard } from "./projectCard";
 
+// Genererar HTML för projektsektionen genom att mappa över projekten och skapa kort för varje projekt.
 export function projects(): string {
   const cards = projectsData
     .map((project) => projectCard(project))

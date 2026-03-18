@@ -1,5 +1,6 @@
 import { socialLinks } from "../data/about";
 
+// SVG icons for contact links
 const mailIcon = `
   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
     <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
@@ -21,6 +22,7 @@ const linkedinIcon = `
   </svg>
 `;
 
+// Kontaktsektionen med länkar till e-post, GitHub och LinkedIn
 export function contact(): string {
   return `
     <section id="kontakt" class="contact fade-in">

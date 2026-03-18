@@ -1,10 +1,12 @@
 import { aboutText, details } from "../data/about";
 
+// Funktion som genererar HTML för "Om mig"-sektionen baserat på data från aboutText och details.
 export function about(): string {
   const paragraphs = aboutText
     .map((text) => `<p>${text}</p>`)
     .join("");
 
+  // Genererar HTML för varje detalj i details-arrayen.
   const detailItems = details
     .map(
       (d) => `
@@ -15,7 +17,8 @@ export function about(): string {
     `
     )
     .join("");
-
+    
+// Returnerar den kompletta HTML-strukturen för "Om mig"-sektionen.
   return `
     <section id="om" class="about fade-in">
       <p class="section-label">01 — Om mig</p>

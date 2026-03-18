@@ -3,14 +3,15 @@ export interface SkillGroup {
   items: string[];
 }
 
+// Data för att visa mina färdigheter i frontend-utveckling och relaterade verktyg
 export const skillsData: SkillGroup[] = [
   {
     category: "Frontend",
     items: [
       "HTML5 & Semantisk HTML",
-      "CSS3 / SCSS / Tailwind",
+      "CSS3 / SCSS / Bootstrap",
       "JavaScript (ES6+)",
-      "React",
+      "React - senare i vår",
       "TypeScript",
       "Responsiv design",
     ],

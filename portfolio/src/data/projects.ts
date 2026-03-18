@@ -7,6 +7,8 @@ export interface Project {
   live?: string;
 }
 
+// Exporterar en lista med projektdata som kan användas i portföljsektionen av webbplatsen.
+// Varje projekt har ett unikt ID, titel, beskrivning, tekniska taggar, GitHub-länk och valfri live-länk.
 export const projectsData: Project[] = [
   {
     id: 1,
