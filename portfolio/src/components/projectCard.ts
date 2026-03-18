@@ -32,6 +32,7 @@ export function projectCard(project: Project): string {
         <h3>${project.title}</h3>
       </div>
       <p>${project.description}</p>
+      <img src="${project.img}" alt="${project.title}" />
       <div class="project-tags">${tags}</div>
       <div class="project-links">
         <a href="${project.github}" target="_blank" rel="noopener noreferrer">${githubIcon} GitHub</a>

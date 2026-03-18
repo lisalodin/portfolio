@@ -2,6 +2,7 @@ export interface Project {
   id: number;
   title: string;
   description: string;
+  img?: string; 
   tags: string[];
   github: string;
   live?: string;
@@ -15,6 +16,7 @@ export const projectsData: Project[] = [
     title: "Candy webshop",
     description:
       "Ett grupparbete om 4 personer med fokus på den agila utvecklingsprocessen, kunskaper inom HTML, SCSS och TypeScript.",
+    img: "/assets/candywebshop.png",
     tags: ["HTML", "SCSS", "TypeScript"],
     github: "https://github.com/lisalodin/candywebshop",
     live: "https://candywebshop-git-main-lisa-lodins-projects.vercel.app/",
@@ -24,6 +26,7 @@ export const projectsData: Project[] = [
     title: "Projektnamn",
     description:
       "Kort beskrivning av projektet — vad det gör, vilken utmaning det löser, och vad du lärde dig.",
+    img: "/assets/candywebshop.png",
     tags: ["JavaScript", "HTML", "SCSS"],
     github: "https://github.com/ditt-användarnamn/repo-2",
     live: "https://projekt-2.vercel.app",
