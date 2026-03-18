@@ -21,8 +21,7 @@ export function about(): string {
 // Returnerar den kompletta HTML-strukturen för "Om mig"-sektionen.
   return `
     <section id="om" class="about fade-in">
-      <p class="section-label">01 — Om mig</p>
-      <h2 class="section-title">Hej, jag heter Lisa</h2>
+      <h2 class="section-title">Mitt namn är Lisa</h2>
       <div class="about-grid">
         <div class="about-text">
           ${paragraphs}

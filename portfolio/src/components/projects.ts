@@ -9,7 +9,7 @@ export function projects(): string {
 
   return `
     <section id="projekt" class="projects fade-in">
-      <p class="section-label">02 — Projekt</p>
+      <p class="section-label">Projekt</p>
       <h2 class="section-title">Utvalda projekt</h2>
       <div class="projects-grid">
         ${cards}

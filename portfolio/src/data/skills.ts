@@ -6,14 +6,17 @@ export interface SkillGroup {
 // Data för att visa mina färdigheter i frontend-utveckling och relaterade verktyg
 export const skillsData: SkillGroup[] = [
   {
-    category: "Frontend",
+    category: "Utveckling",
     items: [
-      "HTML5 & Semantisk HTML",
-      "CSS3 / SCSS / Bootstrap",
-      "JavaScript (ES6+)",
-      "React - senare i vår",
+      "HTML5",
+      "CSS / SCSS / Bootstrap",
+      "JavaScript",
+      "Next",
       "TypeScript",
       "Responsiv design",
+      "Node.js",
+      "Socket.io",
+      "Restfull API:s",
     ],
   },
   {
@@ -22,18 +25,18 @@ export const skillsData: SkillGroup[] = [
       "Git & GitHub",
       "VS Code",
       "Figma",
-      "npm / Vite",
+      "Vite & npm",
       "Chrome DevTools",
-      "REST API:er",
     ],
   },
   {
     category: "Övrigt",
     items: [
-      "Tillgänglighet (a11y)",
+      "Tillgänglighet",
       "Agilt / Scrum",
       "UX-tänk",
-      "Samarbete & kommunikation",
+      "Samarbete & kommunikation - grupparbeten",
+      "MongoDB",
     ],
   },
 ];

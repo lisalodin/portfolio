@@ -18,7 +18,7 @@ export function skills(): string {
 
   return `
     <section id="skills" class="skills fade-in">
-      <p class="section-label">03 — Tekniker</p>
+      <p class="section-label">Tekniker</p>
       <h2 class="section-title">Min verktygslåda</h2>
       <div class="skills-layout">
         ${groups}
