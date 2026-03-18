@@ -12,12 +12,12 @@ export interface Project {
 export const projectsData: Project[] = [
   {
     id: 1,
-    title: "Projektnamn",
+    title: "Candy webshop",
     description:
-      "Kort beskrivning av projektet — vad det gör, vilken utmaning det löser, och vad du lärde dig.",
-    tags: ["React", "TypeScript", "API"],
-    github: "https://github.com/ditt-användarnamn/repo-1",
-    live: "https://projekt-1.vercel.app",
+      "Ett grupparbete om 4 personer med fokus på den agila utvecklingsprocessen, kunskaper inom HTML, SCSS och TypeScript.",
+    tags: ["HTML", "SCSS", "TypeScript"],
+    github: "https://github.com/lisalodin/candywebshop",
+    live: "https://candywebshop-git-main-lisa-lodins-projects.vercel.app/",
   },
   {
     id: 2,
@@ -28,22 +28,4 @@ export const projectsData: Project[] = [
     github: "https://github.com/ditt-användarnamn/repo-2",
     live: "https://projekt-2.vercel.app",
   },
-  {
-    id: 3,
-    title: "Projektnamn",
-    description:
-      "Kort beskrivning av projektet — vad det gör, vilken utmaning det löser, och vad du lärde dig.",
-    tags: ["TypeScript", "Next.js", "Tailwind"],
-    github: "https://github.com/ditt-användarnamn/repo-3",
-  },
-  {
-    id: 4,
-    title: "Projektnamn",
-    description:
-      "Kort beskrivning av projektet — vad det gör, vilken utmaning det löser, och vad du lärde dig.",
-    tags: ["Vue", "Firebase"],
-    github: "https://github.com/ditt-användarnamn/repo-4",
-    live: "https://projekt-4.vercel.app",
-  },
-
 ];
