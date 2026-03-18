@@ -45,21 +45,5 @@ export const projectsData: Project[] = [
     github: "https://github.com/ditt-användarnamn/repo-4",
     live: "https://projekt-4.vercel.app",
   },
-  {
-    id: 5,
-    title: "Projektnamn",
-    description:
-      "Kort beskrivning av projektet — vad det gör, vilken utmaning det löser, och vad du lärde dig.",
-    tags: ["React", "Node.js", "REST API"],
-    github: "https://github.com/ditt-användarnamn/repo-5",
-  },
-  {
-    id: 6,
-    title: "Projektnamn",
-    description:
-      "Kort beskrivning av projektet — vad det gör, vilken utmaning det löser, och vad du lärde dig.",
-    tags: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/ditt-användarnamn/repo-6",
-    live: "https://projekt-6.vercel.app",
-  },
+
 ];

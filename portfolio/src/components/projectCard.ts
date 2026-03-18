@@ -27,8 +27,10 @@ export function projectCard(project: Project): string {
 
   return `
     <article class="project-card">
-      <span class="project-number">${String(project.id).padStart(2, "0")}</span>
-      <h3>${project.title}</h3>
+      <div class="project-header">
+        <span class="project-number">${String(project.id).padStart(2, "0")}</span>
+        <h3>${project.title}</h3>
+      </div>
       <p>${project.description}</p>
       <div class="project-tags">${tags}</div>
       <div class="project-links">

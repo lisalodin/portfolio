@@ -35,6 +35,12 @@
     }
   }
 
+.project-header {
+  display: flex;
+  gap: 1rem;
+  align-items: center;  
+}
+
   h3 {
     font-family: $font-display;
     font-size: 1.4rem;
@@ -53,9 +59,9 @@
 
 .project-number {
   font-family: $font-display;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   color: $text;
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 .project-tags {

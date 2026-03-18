@@ -10,8 +10,7 @@ export function hero(): string {
           <em>digitala upplevelser</em>
         </h1>
         <p class="hero-desc">
-          Frontendutvecklare under utbildning med öga för design och passion för
-          att skapa snygga, tillgängliga och användarvänliga gränssnitt.
+          Frontendutvecklare under utbildning med öga för design och att skapa snygga, tillgängliga och användarvänliga gränssnitt.
         </p>
         <div class="hero-cta">
           <a href="#projekt" class="btn-primary">Se mina projekt</a>

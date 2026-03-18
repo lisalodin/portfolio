@@ -6,9 +6,10 @@ export interface DetailItem {
 
 // Exporterar en lista med texter som beskriver mig själv
 export const aboutText: string[] = [
-  "Efter 8 år som ledare och projektledare inom träningsbranschen bestämde jag mig för att byta karriär. Jag valde att införskaffa mig teknisk bakgrund och har alltid varit fascinerad av teknik och design, och nu vill jag gärna kombinera dessa intressen i min nya karriär.",
-  "Jag studerar frontend-utveckling och i höst är det dags för LIA-praktik. Jag drivs av nyfikenhet och älskar att ta en design från skiss till färdig kod — med fokus på responsivitet, tillgänglighet och rena lösningar.",
-  "Jag trivs i team, är snabb på att lära mig nya verktyg, och brinner för att skapa gränssnitt som både ser bra ut och fungerar sömlöst.",
+  "En dalkulla som flyttade till Stockholm 2015 med ett brinnande intresse för träning. Efter 8 år som ledare och projektledare inom träningsbranschen bestämde jag mig för att ta nästa steg och byta karriär.",
+  "Idag satsar jag på en teknisk bana då mitt intresse för teknik och design som väcktes redan under gymnasietiden på Mediaprogrammet. Mitt mål är att kombinera mina tekniska kunskaper med min arbetslivserfarenhet av ledarskap och teamarbete.",
+  "Nu studerar jag frontendutveckling och ser fram emot min kommande LIA-praktik i höst. Jag drivs av nyfikenhet och tycker om att ta en idé från skiss till färdig lösning, med fokus på responsivitet, tillgänglighet och genomtänkt kod.",
+  "Som person är jag samarbetsinriktad, lär mig snabbt nya verktyg och brinner för att skapa gränssnitt som både är visuellt tilltalande och smidiga att använda.",
 ];
 
 // Exporterar en lista med detaljer om mig själv

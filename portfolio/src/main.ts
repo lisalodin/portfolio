@@ -48,4 +48,6 @@ const observer = new IntersectionObserver(
   { threshold: 0.08 }
 );
 
+// Alla element med klassen "fade-in" observeras, och när de kommer in i viewporten (när de är synliga på skärmen)
+// kommer klassen "visible" att läggas till, vilket triggar en CSS-animation för att göra dem synliga.
 document.querySelectorAll(".fade-in").forEach((el) => observer.observe(el));

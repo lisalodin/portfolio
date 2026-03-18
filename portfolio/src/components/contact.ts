@@ -27,7 +27,10 @@ export function contact(): string {
   return `
     <section id="kontakt" class="contact fade-in">
       <h2 class="section-title">Låt oss prata</h2>
-      <p class="contact-desc">Jag söker LIA-plats från hösten 2026. Hör gärna av dig!</p>
+      <p class="contact-desc">Jag söker LIA-plats från hösten 2026.<br>
+      <br>Period:
+      <br>2026-09-21 till 2027-03-12.<br>
+      <br>Hör gärna av dig!</p>
       <div class="contact-links">
         <a href="mailto:${socialLinks.email}">${mailIcon} E-post</a>
         <a href="${socialLinks.github}" target="_blank" rel="noopener noreferrer">${githubIcon} GitHub</a>
