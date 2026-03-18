@@ -41,7 +41,8 @@
       transition: color 0.25s;
 
       &:hover {
-        color: $text;
+        color: $green-color;
+        font-weight: bold;
       }
     }
 

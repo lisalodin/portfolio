@@ -19,7 +19,7 @@
     left: 0;
     right: 0;
     height: 3px;
-    background: $accent;
+    background: $green-color;
     transform: scaleX(0);
     transform-origin: left;
     transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
@@ -54,7 +54,7 @@
 .project-number {
   font-family: $font-display;
   font-size: 0.9rem;
-  color: $text-muted;
+  color: $text;
   opacity: 0.5;
 }
 
@@ -67,9 +67,9 @@
     font-size: 0.72rem;
     letter-spacing: 0.04em;
     padding: 0.3rem 0.7rem;
-    background: $tag-bg;
+    background: $green-color;
     border-radius: 100px;
-    color: $text-muted;
+    color: $bg;
     font-weight: 500;
   }
 }
