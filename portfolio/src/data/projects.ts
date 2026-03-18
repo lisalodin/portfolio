@@ -23,12 +23,12 @@ export const projectsData: Project[] = [
   },
   {
     id: 2,
-    title: "Projektnamn",
+    title: "Todolist app",
     description:
-      "Kort beskrivning av projektet — vad det gör, vilken utmaning det löser, och vad du lärde dig.",
-    img: "/assets/candywebshop.png",
+      "Vår första uppgift om att skapa en enkel todolist-applikation.",
+    img: "/assets/todolist.png",
     tags: ["JavaScript", "HTML", "SCSS"],
-    github: "https://github.com/ditt-användarnamn/repo-2",
-    live: "https://projekt-2.vercel.app",
+    github: "https://github.com/lisalodin/todolist",
+    live: "https://todolist-iota-cyan.vercel.app/",
   },
 ];
