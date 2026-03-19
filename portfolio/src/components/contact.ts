@@ -30,6 +30,7 @@ export function contact(): string {
       <p class="contact-desc">Jag söker LIA-plats från hösten 2026.<br>
       <br>Period:
       <br>2026-09-21 till 2027-03-12.<br>
+      <br>Datumen går att diskutera och dela upp vid behov.
       <br>Hör gärna av dig!</p>
       <div class="contact-links">
         <a href="mailto:${socialLinks.email}">${mailIcon} E-post</a>
