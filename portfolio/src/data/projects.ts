@@ -25,7 +25,7 @@ export const projectsData: Project[] = [
     id: 2,
     title: "Todolist app",
     description:
-      "Vår första uppgift om att skapa en enkel todolist-applikation.",
+      "Vår första individuella uppgift i Javascript. En enkel funktionell todolist-applikation.",
     img: "/assets/todolist.png",
     tags: ["JavaScript", "HTML", "SCSS"],
     github: "https://github.com/lisalodin/todolist",
