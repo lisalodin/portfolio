@@ -13,6 +13,15 @@ export interface Project {
 export const projectsData: Project[] = [
   {
     id: 1,
+    title: "Hotel site",
+    description:
+      "Vårat sista grupparbete, i kursen ramverk React/Node.js. Javascript där vi fick ett api",
+    img: "/assets/hotelsite.png",
+    tags: ["JavaScript", "HTML", "SCSS", "React", "Node.js"],
+    github: "https://github.com/lisalodin/hotelsite.git",
+  },  
+  {
+    id: 2,
     title: "Candy webshop",
     description:
       "Ett grupparbete om 4 personer med fokus på den agila utvecklingsprocessen, kunskaper inom HTML, SCSS och TypeScript.",
@@ -22,7 +31,7 @@ export const projectsData: Project[] = [
     live: "https://candywebshop-git-main-lisa-lodins-projects.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Todolist app",
     description:
       "Vår första individuella uppgift i Javascript. En enkel funktionell todolist-applikation.",
@@ -31,13 +40,4 @@ export const projectsData: Project[] = [
     github: "https://github.com/lisalodin/todolist",
     live: "https://todolist-iota-cyan.vercel.app/",
   },
-  {
-    id: 3,
-    title: "Hotel site",
-    description:
-      "Vårat sista grupparbete, i kursen ramverk React/Node.js. Javascript där vi fick ett api",
-    img: "/assets/hotelsite.png",
-    tags: ["JavaScript", "HTML", "SCSS", "React", "Node.js"],
-    github: "https://github.com/lisalodin/hotelsite.git",
-  },  
 ];
