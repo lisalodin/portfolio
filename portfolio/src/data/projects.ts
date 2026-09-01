@@ -15,7 +15,7 @@ export const projectsData: Project[] = [
     id: 1,
     title: "Hotel site",
     description:
-      "Vårat sista grupparbete, i kursen ramverk React/Node.js. Javascript där vi fick ett api",
+      "Vårat sista grupparbete om 4 personer, i kursen ramverk. Vi använde oss av React, Node.js och Javascript samt ett api från våran lärare för att hämta data om hotell.",
     img: "/assets/hotelsite.png",
     tags: ["JavaScript", "HTML", "SCSS", "React", "Node.js"],
     github: "https://github.com/lisalodin/hotelsite.git",
