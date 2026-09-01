@@ -31,4 +31,13 @@ export const projectsData: Project[] = [
     github: "https://github.com/lisalodin/todolist",
     live: "https://todolist-iota-cyan.vercel.app/",
   },
+  {
+    id: 3,
+    title: "Hotel site",
+    description:
+      "Vårat sista grupparbete, i kursen ramverk React/Node.js. Javascript där vi fick ett api",
+    img: "/assets/hotelsite.png",
+    tags: ["JavaScript", "HTML", "SCSS", "React", "Node.js"],
+    github: "https://github.com/lisalodin/hotelsite.git",
+  },  
 ];
