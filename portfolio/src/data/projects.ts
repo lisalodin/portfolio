@@ -26,7 +26,7 @@ export const projectsData: Project[] = [
     description:
       "Ett grupparbete om 4 personer med fokus på den agila utvecklingsprocessen, kunskaper inom HTML, SCSS och TypeScript.",
     img: "/assets/candywebshop.png",
-    tags: ["HTML", "SCSS", "TypeScript"],
+    tags: ["HTML", "SCSS", "TypeScript", "JavaScript"],
     github: "https://github.com/lisalodin/candywebshop",
     live: "https://candywebshop-git-main-lisa-lodins-projects.vercel.app/",
   },
