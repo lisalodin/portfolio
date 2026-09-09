@@ -19,6 +19,7 @@ export const projectsData: Project[] = [
     img: "/assets/hotelsite.png",
     tags: ["JavaScript", "HTML", "SCSS", "React", "Node.js"],
     github: "https://github.com/lisalodin/hotelsite.git",
+    live: "https://hotelsite-7sn0esfm0-lisa-lodins-projects.vercel.app/",
   },  
   {
     id: 2,
@@ -28,7 +29,7 @@ export const projectsData: Project[] = [
     img: "/assets/candywebshop.png",
     tags: ["HTML", "SCSS", "TypeScript", "JavaScript"],
     github: "https://github.com/lisalodin/candywebshop",
-    live: "https://candywebshop-git-main-lisa-lodins-projects.vercel.app/",
+    live: "https://candywebshop-fuzguouk1-lisa-lodins-projects.vercel.app/",
   },
   {
     id: 3,
